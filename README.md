@@ -15,6 +15,29 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+Após isso adicione uma variável no seu .env chamada ENVIAR_EMAIL, dessa forma
+
+```.env
+ENVIAR_EMAIL=True
+```
+
+# Dependências
+
+Eis aqui a lista de dependências da nossa app:
+
+```txt
+django-crum
+django-quill-editor
+```
+
+Você pode instalá-los com o seguinte comando:
+
+```shell
+pip install django-crum
+pip install django-quill-editor
+pip freeze > requirements-dev.txt
+```
+
 # Exemplo de uso:
 
 No admin, crie o seu template de e-mail, depois disso, escreva uma função para enviar o mesmo, dessa forma:
