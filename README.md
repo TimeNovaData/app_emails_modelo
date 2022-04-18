@@ -28,7 +28,7 @@ def exemplo_email(self):
         mensagem_email = MensagemEmail.objects.create(template_email=template_email)
         mensagem_email.enviar()
     except:
-        print('Provavelmente não existe um e-mail com esse código')
+        print('Provavelmente não existe um template de e-mail com esse código')
 ```
 
 Depois de criar a função basta chamá-la, seja por meio de signals, condições, enfim, fica a seu critério!
