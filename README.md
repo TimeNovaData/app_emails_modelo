@@ -5,7 +5,7 @@ Esse modelo serve para criarmos nossa app de e-mails seguindo um padrão.
 Na hora de criar sua app basta digitar o seguinte comando:
 
 ```shell
-python manage.py startapp --template https://github.com/TimeNovaData/django_app_emails_modelo/raw/master/emails.zip emails
+python manage.py startapp --template https://github.com/TimeNovaData/app_emails_modelo/raw/master/emails.zip emails
 ```
 
 Depois disso é só adiciona-la no seu settings.py e rodar os seguintes comandos:
